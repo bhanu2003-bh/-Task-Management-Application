@@ -1,0 +1,114 @@
+.Background{
+    color:white;
+   background-color: #343434;
+    height: 100%;
+    width: 100%;
+    display: flex;
+     gap: 60px;
+    align-items:center;
+    flex-direction: column; 
+    
+}
+
+.bg-header-button{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    border: 0px;
+    gap: 1140px;
+}
+
+.bg-img{
+    height: 25px;
+    width: 25px;
+}
+.bg-img:hover{
+  background-color: #0096FF;
+}
+
+.bg-create button{
+   width: 200px;
+   background-color:  #6495ED;
+   color: white;
+}
+
+.bg-create button:hover{
+    background-color: #0096FF;
+}
+
+.bg-tasks{
+    width: 100%;
+    height: 100%;
+    color: #0096FF;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+
+.bg-tasks{
+    font-size: large;
+}
+
+
+
+
+
+.in-progress{
+    width: 100%;
+    height: 100%; 
+    overflow: hidden;
+}
+
+.under-review{
+    width: 100%;
+    height: 100%;  
+    overflow: hidden;
+}
+
+.finished{
+    width: 100%;
+    height: 100%;    
+    overflow: hidden;
+}
+
+.to-do {
+    padding-left:30px ;
+    width: 100%;
+    height: 300px; /* This can be adjusted as per your requirements */
+    gap: 10px; /* Space between items */
+    overflow-y: auto; /* Enable vertical scrolling when content overflows */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+
+
+
+.to-do::-webkit-scrollbar {
+    display: none;  /* WebKit browsers */
+}
+
+.taski{
+     color: black;
+     background-color: white;
+     border-radius: 10px;
+    overflow: hidden;
+    height: 150px;
+    width: 70%;
+    font-size: 12px;
+   overflow-y: auto;
+   padding: 0px;
+    margin: 20px;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none; 
+}
+
+.taski::-webkit-scrollbar {
+    display: none;  /* WebKit browsers */
+}
+
+.taski h5{
+    font-size: 20px;
+}

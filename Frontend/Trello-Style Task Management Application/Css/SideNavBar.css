@@ -1,0 +1,52 @@
+.SideNav{
+    display: flex;
+     justify-content:space-between;
+     align-items: center;
+     flex-direction: column; 
+     color: #818181;
+     height: 100%;
+     position: fixed;
+     z-index: 1;
+     top: 0;
+     left: 0;
+     background-color: #111;
+     overflow-x: hidden;
+     transition: 0.5s;
+}
+
+.Side-img{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+    margin-top: 50px;
+}
+
+.mid{
+    color: #818181;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     flex-direction: column; 
+     flex-wrap: wrap;
+     gap: 10px;
+}
+
+.task:hover{
+    background-color: #0F52BA;
+}
+
+.mid a{
+    color: #818181;
+}
+.mid h4:hover{
+    color: #f1f1f1;
+}
+.mid a:hover{
+    color: #f1f1f1;
+}
+
+.task{
+    background-color: #4169E1;
+    color: white;
+}
+
